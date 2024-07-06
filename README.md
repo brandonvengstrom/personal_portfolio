@@ -7,7 +7,7 @@ Howdy, I'm Brandon — a passionate data enthusiast who thrives on turning chaos
 ## Table of Contents
   - [Projects](#Projects)
     - Python
-      - [Web Scraping College Football Data](https://github.com/brandonvengstrom/personal_portfolio/blob/main/scrape_college_football_data.py)
+      - [Web Scraping College Football Data](#Web-Scrapping-College-Football-Data)
       - [Cleaning College Football Data](https://github.com/brandonvengstrom/personal_portfolio/blob/main/clean_college_football_data.ipynb)
       - [College Football Power Rankings](https://github.com/brandonvengstrom/personal_portfolio/blob/main/college_football_power_rankings.ipynb)
     - SQL
