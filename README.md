@@ -31,14 +31,14 @@ As a passionate data enthusiast who thrives on turning chaos into order. My jour
 
 ### College Football Power Rankings
 
-**Code:** [collge_football_power_rankings.ipynb](https://github.com/brandonvengstrom/personal_portfolio/blob/main/college_football_power_rankings.ipynb)  
+**Code:** [collge_football_power_rankings.ipynb](https://github.com/brandonvengstrom/personal_portfolio/blob/main/college_football_power_rankings.ipynb)    
 **Goal:** Show the effects of adjusted statistics based on the strength of schedule on a team's ranking for a given statistic  
 **Description:** This project aims to develop Power Rankings for each CFB team in a season. Due to the variability of opponents' ability a given statistic will need to be adjusted based on this. These adjustments will be accomplished utilizing ridge regression due to the penalties that it enforces.  
 **Technology:** Python
 
 ### Analyzing Unicorn Companies
 
-**Code:** [analyzing_unicorn_companies_sql](https://github.com/brandonvengstrom/personal_portfolio/blob/main/analyzing_unicorn_companies_sql.sql) 
+**Code:** [analyzing_unicorn_companies_sql](https://github.com/brandonvengstrom/personal_portfolio/blob/main/analyzing_unicorn_companies_sql.sql)   
 **Goal:** Answer the question of which industries are producing the highest valuations and the rate at which new high-value companies are emerging  
 **Description:** This project was done through [Datacamp](https://app.datacamp.com/) and added to my portfolio. This project uses CTEs and aggregation to answer the question of which industries are producing the highest valuations and the rate at which new high-value companies are emerging.  
 **Technology:** SQL  
