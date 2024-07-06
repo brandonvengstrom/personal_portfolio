@@ -15,7 +15,7 @@ Howdy, I'm Brandon — a passionate data enthusiast who thrives on turning chaos
     - Power BI
       - WIP
 
-## Projects
+##Projects
 
 ### Web Scrapping College Football Data
 **Code:** [scrape_college_football_data.py](https://github.com/brandonvengstrom/personal_portfolio/blob/main/scrape_college_football_data.py)  
