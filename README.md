@@ -5,7 +5,7 @@
 Howdy, I'm Brandon — a passionate data enthusiast who thrives on turning chaos into order. My journey in data science and analytics has been shaped by my professional experience in supply chain planning, operations, and my own personal projects in sports analytics. From navigating complex supply and demand dynamics to leveraging SQL, Python, Excel, and Power BI, I specialize in designing streamlined data systems and automating insightful reports. I excel in delivering clear, actionable insights through Sales and Operations Planning (S&OP) reports, enabling strategic decisions, and fostering continuous improvement. I'm dedicated to bringing clarity and efficiency to business operations through integrated, data-driven strategies.
 
 ## Table of Contents
-  - [Projects]
+  - [Projects](Projects)
     - Python
       - [Web Scraping College Football Data](https://github.com/brandonvengstrom/personal_portfolio/blob/main/scrape_college_football_data.py)
       - [Cleaning College Football Data](https://github.com/brandonvengstrom/personal_portfolio/blob/main/clean_college_football_data.ipynb)
