@@ -15,6 +15,8 @@ This Repository is used to showcase some of my projects
     - SQL
       - [Analyzing Unicorn Companies](#Analyzing-Unicorn-Companies)
       - [Manufacturing Limits](#Manufacturing-Limits)
+- [Education](#Education)
+- [Certifications](#Certifications)
 
 ## Projects
 
