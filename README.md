@@ -8,12 +8,12 @@ Howdy, I'm Brandon — a passionate data enthusiast who thrives on turning chaos
   - [Projects]
     -Python
       - [Web Scraping College Football Data](https://github.com/brandonvengstrom/personal_portfolio/blob/main/scrape_college_football_data.py)
-      - [Cleaning College Foot Ball Data](https://github.com/brandonvengstrom/personal_portfolio/blob/main/clean_college_football_data.ipynb)
+      - [Cleaning College Football Data](https://github.com/brandonvengstrom/personal_portfolio/blob/main/clean_college_football_data.ipynb)
       - [College Football Power Rankings](https://github.com/brandonvengstrom/personal_portfolio/blob/main/college_football_power_rankings.ipynb)
    - SQL
-      - [test]
+      - WIP
    - Power BI
-      - [tst]
+      - WIP
 
 ## Projects
 
@@ -24,7 +24,7 @@ Howdy, I'm Brandon — a passionate data enthusiast who thrives on turning chaos
 **Skills:** Web Scraping, Data Parsing, Error Handling, Scalability, Data Storage  
 **Technology:** Python, BeautifulSoup, Pandas, time, OS, Playwright, datetime  
 
-### Cleaning College Foot Ball Data
+### Cleaning College Football Data
 
 **Code:** [clean_college_football_data.ipynb](https://github.com/brandonvengstrom/personal_portfolio/blob/main/clean_college_football_data.ipynb)  
 **Goal:** To clean data that was web scrapped from [Web Scrapping College Football Data] into usable data   
