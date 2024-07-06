@@ -8,17 +8,17 @@
  -- Using SQL window functions and nested queries, you'll analyze historical manufacturing data to define this acceptable range and identify any points in the process that fall outside of the range and therefore require adjustments. This will ensure a smooth running manufacturing process consistently making high-quality products.
 
 SELECT 
-	 "operator"                                        	 					AS "operator"
+	 "operator"                                        	 				AS "operator"
 	,"row_number"	                                    					AS "row_number"
 	,"height"                                           					AS "height"
 	,"avg_height"	                                    					AS "avg_height"
 	,"stddev_height"                                    					AS "stddev_height"
 	,"avg_height" 
 		+ 3 
-		* ("stddev_height" / SQRT(5))										AS "ucl"
+		* ("stddev_height" / SQRT(5))							AS "ucl"
 	,"avg_height" 
 		- 3 
-		* ("stddev_height" / SQRT(5))										AS "lcl"
+		* ("stddev_height" / SQRT(5))							AS "lcl"
 	,CASE 
 		WHEN "height" < "avg_height" - 3 * ("stddev_height" / SQRT(5))  
 			THEN TRUE
@@ -26,16 +26,16 @@ SELECT
 			THEN TRUE
 		ELSE 
 			FALSE
-		END                                             					AS "alert"
+		END                                             				AS "alert"
 FROM ( 
 	SELECT 
-		 operator															AS "operator"
+		 operator									AS "operator"
 		,ROW_NUMBER()
 			OVER(
 				PARTITION BY 
 					operator
 				ORDER BY item_no ASC 
-			)																AS "row_number"
+			)									AS "row_number"
 		,AVG("height")
 			OVER(
 				PARTITION BY 
@@ -44,7 +44,7 @@ FROM (
 					item_no ASC 
 				ROWS BETWEEN 4 PRECEDING 
 				AND CURRENT ROW
-			)																AS "avg_height"
+			)									AS "avg_height"
 		,STDDEV("height")
 			OVER(
 				PARTITION BY 
@@ -53,8 +53,8 @@ FROM (
 					item_no ASC 
 				ROWS BETWEEN 4 PRECEDING 
 				AND CURRENT ROW
-			)																AS "stddev_height"
-		,height                             								AS "height"
+			)									AS "stddev_height"
+		,height                             						AS "height"
 	FROM manufacturing_parts
 ) AS SUB_MAN
 WHERE 
