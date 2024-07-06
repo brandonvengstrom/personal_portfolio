@@ -13,8 +13,6 @@ As a passionate data enthusiast who thrives on turning chaos into order. My jour
     - SQL
       - [Analyzing Unicorn Companies](#Analyzing-Unicorn-Companies)
       - [Manufacturing Limits](#Manufacturing-Limits)
-    - Power BI
-      - WIP
 
 ## Projects
 
@@ -27,7 +25,7 @@ As a passionate data enthusiast who thrives on turning chaos into order. My jour
 ### Cleaning College Football Data
 
 **Code:** [clean_college_football_data.ipynb](https://github.com/brandonvengstrom/personal_portfolio/blob/main/clean_college_football_data.ipynb)  
-**Goal:** To clean data that was web scrapped from [Web Scrapping College Football Data] into usable data   
+**Goal:** To clean data that was web scrapped from [Web Scrapping College Football Data](#Web-Scrapping-College-Football-Data) into usable data   
 **Description:** The purpose of this file is to clean CFB data that was previously webscarped for further analysis later on.  
 **Technology:** Python
 
@@ -40,16 +38,16 @@ As a passionate data enthusiast who thrives on turning chaos into order. My jour
 
 ### Analyzing Unicorn Companies
 
-**Code:** [analyzing_unicorn_companies_sql](https://github.com/brandonvengstrom/personal_portfolio/blob/main/analyzing_unicorn_companies_sql.ipynb)
-**Goal:** Answer the question of which industries are producing the highest valuations and the rate at which new high-value companies are emerging
-**Description:** This project was done through [Datacamp](https://app.datacamp.com/) and added to my portfolio. This project uses CTEs and aggregation to answer the question of which industries are producing the highest valuations and the rate at which new high-value companies are emerging
-**Technology:** SQL
+**Code:** [analyzing_unicorn_companies_sql](https://github.com/brandonvengstrom/personal_portfolio/blob/main/analyzing_unicorn_companies_sql.ipynb)  
+**Goal:** Answer the question of which industries are producing the highest valuations and the rate at which new high-value companies are emerging  
+**Description:** This project was done through [Datacamp](https://app.datacamp.com/) and added to my portfolio. This project uses CTEs and aggregation to answer the question of which industries are producing the highest valuations and the rate at which new high-value companies are emerging.  
+**Technology:** SQL  
 
 ### Manufacturing Limits
-**Code:** [manufaturing_limits_sql](https://github.com/brandonvengstrom/personal_portfolio/blob/main/manufaturing_limits_sql.ipynb)
-**Goal:** To determine which products fell outside acceptable quality standards based on SPC. 
-**Description:** This project was done through [Datacamp](https://app.datacamp.com/) and added to my portfolio. This project aims to use window functions and row operations to answer questions about which products fall within production limits and which items fail quality standards. 
-**Technology:** SQL
+**Code:** [manufaturing_limits_sql](https://github.com/brandonvengstrom/personal_portfolio/blob/main/manufaturing_limits_sql.ipynb)  
+**Goal:** To determine which products fell outside acceptable quality standards based on SPC.   
+**Description:** This project was done through [Datacamp](https://app.datacamp.com/) and added to my portfolio. This project aims to use window functions and row operations to answer questions about which products fall within production limits and which items fail quality standards.   
+**Technology:** SQL  
 
 ## Education
 Clemson University: Bachelor of Science - Management (Data Analytics & Supply Chain)
