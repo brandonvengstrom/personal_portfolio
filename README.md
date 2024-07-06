@@ -17,6 +17,7 @@ This Repository is used to showcase some of my projects
       - [Manufacturing Limits](#Manufacturing-Limits)
 - [Education](#Education)
 - [Certifications](#Certifications)
+- [Contact](#Contact)
 
 ## Projects
 
