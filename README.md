@@ -39,3 +39,12 @@ As a passionate data enthusiast who thrives on turning chaos into order. My jour
 **Description:** This project aims to develop Power Rankings for each CFB team in a season. Due to the variability of opponents' ability a given statistic will need to be adjusted based on this. These adjustments will be accomplished utilizing ridge regression due to the penalties that it enforces.  
 **Skills:** Statistics, Linear Modeling, Data Manipulation, Data Analysis, Data Visualizations  
 **Technology:** Python, Sklearn, Pandas, Matplotlib, Seaborn, Scipy  
+
+## Education
+Clemson University: Bachelor of Science - Management (Data Analytics & Supply Chain)
+
+## Certifications 
+  - [Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/users/brandonengstrom-8252/transcript/deqzoa2l355np54)
+
+## Contact
+  - LinkedIn: [@brandonvengstrom](https://www.linkedin.com/in/brandonvengstrom/)
