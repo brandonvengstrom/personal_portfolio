@@ -1,4 +1,4 @@
-# Brandon Engstrom - Personal Portfoliol
+# Brandon Engstrom - Personal Portfolio
 
 ## About 
 
