@@ -6,7 +6,7 @@
  --
  -- The UCL defines the highest acceptable height for the parts, while the LCL defines the lowest acceptable height for the parts. Ideally, parts should fall between the two limits.
  -- Using SQL window functions and nested queries, you'll analyze historical manufacturing data to define this acceptable range and identify any points in the process that fall outside of the range and therefore require adjustments. 
- --  This will ensure a smooth running manufacturing process consistently making high-quality products.
+ -- This will ensure a smooth running manufacturing process consistently making high-quality products.
 
 SELECT 
 	 "operator"                                        	 				AS "operator"
