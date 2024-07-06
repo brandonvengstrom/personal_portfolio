@@ -4,8 +4,8 @@
 
 WITH TOTAL_UNI AS (
 	SELECT 
-		 INDUS.industry	   AS "industry"	
-		,COUNT(*)		   AS "total_number_unicorn"
+		 INDUS.industry	   						  AS "industry"	
+		,COUNT(*)		   					  AS "total_number_unicorn"
 	FROM public.industries AS INDUS
 		LEFT JOIN public.dates AS DATES
 			ON INDUS.company_id = DATES.company_id
@@ -22,10 +22,10 @@ WITH TOTAL_UNI AS (
 
 YEARLY_UNI AS (
 	SELECT 
-		 INDUS.industry                        AS "industry"
-		,EXTRACT(YEAR FROM DATES.date_joined)  AS "year_joined"
-		,COUNT(*)                              AS "num_unicorns"
-		,AVG(FUNDS.valuation)                  AS "valuation"
+		 INDUS.industry                        				AS "industry"
+		,EXTRACT(YEAR FROM DATES.date_joined)  				AS "year_joined"
+		,COUNT(*)                              				AS "num_unicorns"
+		,AVG(FUNDS.valuation)                  				AS "valuation"
 	FROM public.industries AS INDUS
 		LEFT JOIN public.dates AS DATES
 			ON INDUS.company_id = DATES.company_id
@@ -39,14 +39,14 @@ YEARLY_UNI AS (
 )
 
 SELECT 
-	 TOTAL_UNI."industry"		AS "industry"
-	,YEARLY_UNI."year_joined"   AS "year"
-	,YEARLY_UNI."num_unicorns"	AS "num_unicorns"
+	 TOTAL_UNI."industry"						       AS "industry"
+	,YEARLY_UNI."year_joined"   					       AS "year"
+	,YEARLY_UNI."num_unicorns"					       AS "num_unicorns"
 	,ROUND(
 		YEARLY_UNI."valuation"
 		/ 1000000000
 		,2
-	)                           AS "average_valuation_billions"
+	)                           					       AS "average_valuation_billions"
 FROM TOTAL_UNI
 	LEFT JOIN YEARLY_UNI
 		ON TOTAL_UNI."industry" = YEARLY_UNI."industry"
