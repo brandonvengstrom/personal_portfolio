@@ -44,7 +44,7 @@ As a passionate data enthusiast who thrives on turning chaos into order. My jour
 **Technology:** SQL  
 
 ### Manufacturing Limits
-**Code:** [manufaturing_limits_sql](https://github.com/brandonvengstrom/personal_portfolio/blob/main/manufaturing_limits_sql.sql)
+**Code:** [manufaturing_limits_sql](https://github.com/brandonvengstrom/personal_portfolio/blob/main/manufaturing_limits_sql.sql)  
 **Goal:** To determine which products fell outside acceptable quality standards based on SPC.   
 **Description:** This project was done through [Datacamp](https://app.datacamp.com/) and added to my portfolio. This project aims to use window functions and row operations to answer questions about which products fall within production limits and which items fail quality standards.   
 **Technology:** SQL  
