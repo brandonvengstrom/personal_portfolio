@@ -2,7 +2,9 @@
 
 ## About 
 
-As a passionate data enthusiast who thrives on turning chaos into order. My journey in data science and analytics has been shaped by my professional experience in supply chain planning, operations, and my own personal projects in sports analytics. From navigating complex supply and demand dynamics to leveraging SQL, Python, Excel, and Power BI, I specialize in designing streamlined data systems and automating insightful reports. I excel in delivering clear, actionable insights through Sales and Operations Planning (S&OP) reports, enabling strategic decisions, and fostering continuous improvement. I'm dedicated to bringing clarity and efficiency to business operations through integrated, data-driven strategies.
+Hello! I'm a data enthusiast with a passion for transforming complex data into clear, actionable insights. My journey in data science, engineering, and analytics spans supply chain, operations, and sports analytics. With skills in SQL, Python, Excel, and Power BI, I specialize in developing efficient data systems and automating reports that provide valuable insights.
+
+I thrive on making data-driven strategies that bring clarity and efficiency to business operations. Whether it's optimizing processes, supporting strategic decisions, or driving continuous improvement, I'm dedicated to using data to make a meaningful impact.
 
 This Repository is used to showcase some of my projects
 
